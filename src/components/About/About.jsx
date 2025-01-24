@@ -1,6 +1,6 @@
 import React from "react";
 
-import profile from "../../assets/assets.js";
+import { profile } from "../../assets/assets.js";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
       <div id="about" className=" flex-col m-5">
         <div className="text-center">
           <h3 className="font-bold mt-[3rem]">Introduction</h3>
-          <h1 className="mb-[3rem] font-bold ">About me</h1>
+          <h1 className="mb-[3rem] font-bold text-3xl ">About me</h1>
         </div>
         <div className=" grid grid-cols-[1.5fr_repeat(3,1fr)] grid-rows-[1fr_2fr_0.5fr] gap-4 max-lg:flex max-lg:flex-wrap max-lg:justify-center ">
           <div className=" row-span-3 flex justify-center">

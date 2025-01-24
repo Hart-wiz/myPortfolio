@@ -39,7 +39,7 @@ function Navbar() {
         <img
           src={menu}
           alt=""
-          className="md:hidden ml-7 w-9 z-30 
+          className="md:hidden ml-7 w-9 z-30 bg-slate-500 rounded-md 
           "
           onClick={() => {
             setMenuVisible(!menuVisible);
@@ -50,30 +50,54 @@ function Navbar() {
         <div
           className={`md:hidden z-10 text-white  absolute right-9 top-[1.5rem] pt-4 h-auto bg-blue-950 transform transition-transform duration-1000  ${
             menuVisible
-              ? " translate-x-[84%] pl-[3rem] rounded-xl "
+              ? " translate-x-[150%] pl-[3rem] rounded-xl  "
               : "translate-x-[40%] pr-[7rem]"
           }`}
         >
           <div className="w-[80%] bg-white pt-1 pb-2">.</div>
           <ul className="flex flex-col gap-5 p-9 text-lg">
             <li>
-              <a href="#home" className="hover:opacity-50">
+              <a
+                href="#home"
+                className="hover:opacity-50"
+                onClick={() => {
+                  setMenuVisible(!menuVisible);
+                }}
+              >
                 home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:opacity-50">
+              <a
+                href="#about"
+                className="hover:opacity-50"
+                onClick={() => {
+                  setMenuVisible(!menuVisible);
+                }}
+              >
                 About me
               </a>
             </li>
             <li>
-              <a href="#projects" className="hover:opacity-50">
+              <a
+                href="#projects"
+                className="hover:opacity-50"
+                onClick={() => {
+                  setMenuVisible(!menuVisible);
+                }}
+              >
                 projects
               </a>
             </li>
 
             <li>
-              <a href="#contact" className="hover:opacity-50">
+              <a
+                href="#contact"
+                className="hover:opacity-50"
+                onClick={() => {
+                  setMenuVisible(!menuVisible);
+                }}
+              >
                 contact me
               </a>
             </li>
