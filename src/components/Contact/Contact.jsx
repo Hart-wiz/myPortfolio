@@ -4,10 +4,10 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col ml-[90px] py-7 w-[60%] text-2xl "
+      className="flex flex-col ml-[90px] py-7 w-[60%] text-2xl items-center "
     >
-      <h2 className="text-3xl font-bold py-5">message</h2>
-      <form action="" method="get" className="flex flex-col">
+      <h2 className="text-3xl font-extrabold py-5 pt-10">Send Me A Message</h2>
+      <form action="" method="get" className="flex flex-col w-[80%]">
         <fieldset>
           <label htmlFor="" className="">
             Full Name
