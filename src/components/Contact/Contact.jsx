@@ -4,23 +4,29 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex flex-col ml-[90px] py-7 w-[60%] text-2xl items-center "
+      className="flex flex-col ml-[90px] max-md:ml-[0] py-7 w-[60%] max-md:w-full text-2xl max-md:text-sm items-center bg-slate-400 "
     >
-      <h2 className="text-3xl font-extrabold py-5 pt-10">Send Me A Message</h2>
-      <form action="" method="get" className="flex flex-col w-[80%]">
+      <h2 className="text-3xl font-extrabold py-5 pt-10 max-md:text-sm">
+        Send Me A Message
+      </h2>
+      <form
+        action=""
+        method="get"
+        className="flex flex-col w-[70%] max-md:w-full max-md:gap-0"
+      >
         <fieldset>
           <label htmlFor="" className="">
             Full Name
           </label>
-          <input type="text" className="ml-16" />
+          <input type="text" className="" />
         </fieldset>
         <fieldset>
           <label htmlFor="">contact email</label>
-          <input type="text" />
+          <input type="text" className=" w-full" />
         </fieldset>
         <fieldset>
           <label htmlFor="">phone</label>
-          <input type="text" className="ml-24" />
+          <input type="text" className=" w-full" />
         </fieldset>
         <fieldset className="flex flex-col h-9 mt-11">
           <label htmlFor="" className="font-bold mb-7 ">

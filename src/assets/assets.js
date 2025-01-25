@@ -15,6 +15,49 @@ export const profile = {
     " I'm a fullstack software engineer based in Nigeria, I have built over 9 known apps and contributed to some projects. My name is Wisdom Njimogu ",
 };
 
+export const latest = [
+  {
+    image: flyme,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: badboys,
+    description: "a bad boy website",
+    link: "http://baddy.com.ng",
+  },
+  {
+    image: breath,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: emotions,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: edo,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: edo,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: fall,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+  {
+    image: flyme,
+    description: "the breath website created for movie beats",
+    website: "http://breath",
+  },
+];
+
 export const projects = [
   {
     image: badboys,
