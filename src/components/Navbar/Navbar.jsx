@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <div>
       <nav className=" fixed w-full flex flex-row justify-between px-[9%] py-5 mt-8 bg-white bg-opacity-30 md:text-[0.9rem] ">
-        <h4 className=" p-4 rounded-lg  text-black font-extrabold text-xl self-center">
-          Wisdom N<bold className="font-bold text-3xl text-red-50">..</bold>
+        <h4 className=" p-4 rounded-lg  text-black bg-slate-100 bg-opacity-40 font-extrabold text-xl self-center">
+          Wisdom N.
         </h4>
         <ul className="flex gap-9 bg-gray-300 rounded-3xl bg-opacity-10 px-9 self-center p-3 max-lg:gap-4  max-md:hidden">
           <li>

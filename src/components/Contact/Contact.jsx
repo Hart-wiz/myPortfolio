@@ -34,11 +34,14 @@ export default function Contact() {
           </label>
           <textarea name="" id="" className=" p-6"></textarea>
         </fieldset>
-        <fieldset className="mt-28 ">
+        <fieldset className="mt-28 flex flex-row  ">
           <button className="w-[150px] py-4 bg-blue-800 text-yellow-200 mt-7 self-center outline-none mr-9">
             send
           </button>
-          <button type="reset" className="p-4 rounded-xl">
+          <button
+            type="reset"
+            className="px-4 rounded-xl h-9 mt-9 text-sm hover:bg-black bg-blue-950 text-white"
+          >
             reset
           </button>
         </fieldset>

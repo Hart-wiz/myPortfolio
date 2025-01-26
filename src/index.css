@@ -41,7 +41,7 @@ input {
   padding: 0.5rem;
   border-radius: 90px;
 }
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   input {
     margin-left: 0;
   }
