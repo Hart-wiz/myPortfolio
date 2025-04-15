@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div>
       <nav className=" fixed w-full flex flex-row justify-between px-[9%] py-6  md:text-[0.9rem] ">
-        <h4 className=" p-4 rounded-lg  text-black bg-slate-100 bg-opacity-40 font-extrabold text-xl self-center">
+        <h4 className="max-md:hidden p-4 rounded-lg  text-black bg-slate-100 bg-opacity-40 font-extrabold text-xl self-center">
           Wisdom N.
         </h4>
         <div className="flex">
@@ -30,11 +30,11 @@ function Navbar() {
           </li>
           <li>
             <a href="#contact" className="hover:opacity-50">
-              contact me
+              contact
             </a>
           </li>
         </ul>
-        <button className="bg-gradient-to-tr from-black  to-white text-white text-sm font-semibold pl-3 pr-3 rounded-full hover:bg-gradient-to-tr hover:to-black  hover:from-white border-none max-md:hidden">
+        <button className="ml-5 bg-gradient-to-tr from-black  to-white text-white text-sm font-semibold pl-3 pr-3 rounded-full hover:bg-gradient-to-tr hover:to-black  hover:from-white border-none max-md:hidden">
           contact me
         </button>
         </div>

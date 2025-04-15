@@ -7,7 +7,13 @@ import css from "./css3.png";
 import js from "./js.webp";
 import nodejs from "./nodejs.png";
 import python from "./pytext.png";
-import postgres from "./postgres.png"
+import postgres from "./postgres.png";
+import x from "./x.png";
+import whatsapp from "./whatsapp.png";
+import facebook from "./facebook.png";
+import git from "./git.png";
+import call from "./call.webp";
+
 
 
 
@@ -42,4 +48,32 @@ export const projects = [
 
 export const skills = [
   html, css, js, python, nodejs, postgres
+]
+
+export const socials = [
+  {
+    icon: x ,
+    link: "#",
+
+  },
+  {
+    icon: facebook ,
+    link: "#",
+
+  },
+  {
+    icon: whatsapp ,
+    link: "#",
+
+  },
+  {
+    icon: git ,
+    link: "#",
+
+  },
+  {
+    icon: call ,
+    link: "#",
+
+  },
 ]
