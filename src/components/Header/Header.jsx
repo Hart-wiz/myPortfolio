@@ -8,12 +8,12 @@ function Header() {
     <>
       <div
         id="home"
-        className=" text-white pt-[11rem] pb-[9rem] flex flex-col animate text-center self-center gap-3  max-sm:w-[100%]"
+        className=" text-white pt-[11rem] pb-[9rem] flex flex-col animate-dark text-center self-center gap-3  max-sm:w-[100%]"
       >
         <img
           src={profile.image}
           alt=""
-          className="w-[9rem] h-[10rem] rounded-full self-center    p-[0.3rem] bg-red-900 bg-opacity-50"
+          className="w-[9rem] h-[10rem] rounded-full self-center    p-[0.3rem] bg-white bg-opacity-30"
         />
         <h3 className="text-xl max-md:text-lg max-md:font-bold">
           Ndewo, I'm wisdom Njimogu

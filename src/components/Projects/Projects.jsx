@@ -4,7 +4,7 @@ function Projects({ title, projects }) {
   return (
     <>
       <div
-        className="animate flex flex-col py-[3rem] max-md:py-2 max-md:text-sm px-[8rem] max-md:px-0  text-white font-bold"
+        className="animate-dark flex flex-col py-[3rem] max-md:py-2 max-md:text-sm px-[8rem] max-md:px-0  text-white font-bold"
         id="projects"
       >
         <div className="text-center ">
@@ -16,7 +16,7 @@ function Projects({ title, projects }) {
         <div className=" flex flex-col items-center pt-9 max-md:pt-3   max-md:text-sm">
           <ul className="flex gap-5">
             {projects.map((project) => (
-              <a href={project.link} target="_blank">
+              <a href={project.link} target="_blank" className="hover-float">
                 <li className="w-[300px] h-[300px] max-md:w-[150px] max-md:h-[150px] max-md:gap-8 ">
                 <img
                   src={project.image}

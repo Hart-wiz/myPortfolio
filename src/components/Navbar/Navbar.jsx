@@ -7,11 +7,12 @@ function Navbar() {
 
   return (
     <div>
-      <nav className=" fixed w-full flex flex-row justify-between px-[9%] py-5 mt-8 bg-white bg-opacity-30 md:text-[0.9rem] ">
+      <nav className=" fixed w-full flex flex-row justify-between px-[9%] py-6  md:text-[0.9rem] ">
         <h4 className=" p-4 rounded-lg  text-black bg-slate-100 bg-opacity-40 font-extrabold text-xl self-center">
           Wisdom N.
         </h4>
-        <ul className="flex gap-9 bg-gray-300 rounded-3xl bg-opacity-10 px-9 self-center p-3 max-lg:gap-4  max-md:hidden">
+        <div className="flex">
+        <ul className="flex gap-9 bg-gray-300 rounded-3xl bg-opacity-10 items-center text-white  px-3 max-lg:gap-4  max-md:hidden">
           <li>
             <a href="#home" className="hover:opacity-50">
               home
@@ -36,6 +37,7 @@ function Navbar() {
         <button className="bg-gradient-to-tr from-black  to-white text-white text-sm font-semibold pl-3 pr-3 rounded-full hover:bg-gradient-to-tr hover:to-black  hover:from-white border-none max-md:hidden">
           contact me
         </button>
+        </div>
         <img
           src={menu}
           alt=""
