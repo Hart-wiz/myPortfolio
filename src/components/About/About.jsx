@@ -5,9 +5,9 @@ import { profile, skills } from "../../assets/assets.js";
 function About() {
   return (
     <>
-      <div id="about" className="animate-dark flex-col m-5 text-white p-9 max-md:m-0 max-md:p-0 max-md:py-0 py-14">
+      <div id="about" className="animate-dark flex-col  text-white p-9 max-md:p-3 max-md:m-0 ">
         <div className="text-center">
-          <h3 className="font-bold mt-[3rem]">Introduction</h3>
+          <h3 className="font-bold ">Introduction</h3>
           <h1 className="mb-[3rem] font-bold text-3xl ">About me</h1>
         </div>
        
