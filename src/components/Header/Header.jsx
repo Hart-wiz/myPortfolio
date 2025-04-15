@@ -8,7 +8,7 @@ function Header() {
     <>
       <div
         id="home"
-        className=" text-white pt-[11rem] pb-[9rem] flex flex-col bg-gradient-to-l from-blue-300 to-blue-900 text-center self-center gap-3  max-sm:w-[100%]"
+        className=" text-white pt-[11rem] pb-[9rem] flex flex-col animate text-center self-center gap-3  max-sm:w-[100%]"
       >
         <img
           src={profile.image}
